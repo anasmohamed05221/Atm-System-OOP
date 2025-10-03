@@ -1,17 +1,22 @@
 # ATM System (OOP in Python)
 
 ## 📖 Overview
-This project simulates an **ATM system** using Object-Oriented Programming in Python.  
-It includes features such as:
-- Withdraw
-- Deposit
-- Balance Inquiry
-- View Transactions
-- Change PIN
-- Transfer Between Accounts
 
-The project is modular with classes like `Bank`, `Customer`, `Account`, `Card`, `AtmInterface`, and handler classes for transactions.  
-Unit tests are written using **pytest** to ensure correctness.
+A Python-based ATM simulation system built with Object-Oriented Programming.  
+This project applies **Software Engineering** and **Object-Oriented Design (OOD)** principles, including:
+
+- Encapsulation and Abstraction
+- Modularity and Separation of Concerns
+- Reusability and Extensibility
+- Testing with pytest
+
+## Features
+- Customer and Bank account management
+- Card and ATM interface simulation
+- Deposit, Withdrawal, Balance Inquiry, and Transfers
+- Authentication system
+- Unit tests for core features
+
 
 ---
 
