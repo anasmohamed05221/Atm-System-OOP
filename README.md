@@ -132,8 +132,30 @@ Expected output:
 
 ---
 
+📌 Potential Improvements
+
+  - Add database integration (SQLite / MySQL) for persistent accounts
+
+  - Add authentication system with PIN encryption
+
+  - Expand to include transaction history export (CSV/Excel)
+
+---
+
 ## 👨‍💻 Author
 
 Developed by Anas Mohamed
 Computer Science student @ AAST (Arab Academy for Science, Technology & Maritime Transport).
+
+- GitHub: [anasmohamed05221](https://github.com/anasmohamed05221)  
+- LinkedIn: [Anas Aly](https://www.linkedin.com/in/anas-aly-5a6a86337/)
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** – feel free to use, modify, and share.  
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
 
