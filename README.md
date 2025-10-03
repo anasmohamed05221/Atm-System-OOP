@@ -1,22 +1,62 @@
-# ATM System (OOP in Python)
+# 🏧 ATM System (OOP Project in Python)
 
-## 📖 Overview
+This project is an **ATM simulation system** built using **Object-Oriented Programming (OOP)** principles and some **Software Engineering & Object-Oriented Design (OOD) concepts**.  
+It demonstrates modular design, class interactions, and transaction handling in a banking environment.
 
-A Python-based ATM simulation system built with Object-Oriented Programming.  
-This project applies **Software Engineering** and **Object-Oriented Design (OOD)** principles, including:
+---
 
-- Encapsulation and Abstraction
-- Modularity and Separation of Concerns
-- Reusability and Extensibility
-- Testing with pytest
+## 📌 Project Overview
+The system allows customers to interact with a simulated ATM.  
+Each account is linked to a card and can perform multiple transactions including deposits, withdrawals, transfers, and balance inquiries.
 
-## Features
-- Customer and Bank account management
-- Card and ATM interface simulation
-- Deposit, Withdrawal, Balance Inquiry, and Transfers
-- Authentication system
-- Unit tests for core features
+---
 
+## 🛠 Features
+- **Account Management**: Balance tracking and transaction history.  
+- **Authentication**: PIN-protected card system.  
+- **ATM Operations**:
+  - Withdraw money  
+  - Deposit money  
+  - Balance inquiry  
+  - Transaction history view  
+  - Change PIN  
+  - Transfer money between accounts  
+- **Customer & Bank**:
+  - Bank manages accounts
+  - Customers can hold multiple accounts  
+
+---
+
+
+## 📐 UML Class Diagram
+The following diagram shows the structure and relationships between major classes in the system:
+
+![ATM UML Diagram](AtmUml.png)
+
+---
+
+## ⚙️ Technologies Used
+- **Python 3.x**
+- **Pycharm**
+- **OOP Concepts** (Encapsulation, Inheritance, Abstraction, Polymorphism)
+- **Design Patterns & OOD Principles**
+- **Exception Handling** for robust user interaction  
+- **Unit Testing**
+- **AI for documentation**
+
+---
+
+## 📖 Some of the applied SE & OOD Principles
+
+    - Single Responsibility Principle → Each class has one clear role (e.g., Transaction, CardReader, Bank).
+    
+    - Open/Closed Principle → Easy to add new transaction types without modifying core logic.
+    
+    - Encapsulation → Sensitive data (e.g., PIN) is private with getters/setters.
+    
+    - Polymorphism → Transaction subclasses (WithdrawTransaction, DepositTransaction, etc.) override the execute method.
+    
+    - Abstraction → Transaction is an abstract base class.
 
 ---
 
@@ -60,6 +100,7 @@ Expected output:
     ├── Screen.py
     ├── Transactions.py
     ├── main.py
+    │-- AtmUml.png
     ├── test_all.py
     ├── README.md
     └── requirements.txt
