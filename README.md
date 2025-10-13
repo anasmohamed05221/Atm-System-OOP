@@ -39,7 +39,7 @@ The following diagram shows the structure and relationships between major classe
 - **Python 3.x**
 - **Pycharm**
 - **OOP Concepts** (Encapsulation, Inheritance, Abstraction, Polymorphism)
-- **Design Patterns & OOD Principles**
+- **SE & OOD Principles**
 - **Exception Handling** for robust user interaction  
 - **Unit Testing**
 - **AI for documentation**
