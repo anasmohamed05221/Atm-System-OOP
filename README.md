@@ -46,17 +46,23 @@ The following diagram shows the structure and relationships between major classe
 
 ---
 
-## 📖 Some of the applied SE & OOD Principles
+## 📖 Some of the applied Principles
 
-    - Single Responsibility Principle → Each class has one clear role (e.g., Transaction, CardReader, Bank).
+    - Object-Oriented Programming (OOP) principles form the core of the project design.
     
-    - Open/Closed Principle → Easy to add new transaction types without modifying core logic.
+    - Single Responsibility Principle (SRP) → Each class handles one clear function.
     
-    - Encapsulation → Sensitive data (e.g., PIN) is private with getters/setters.
+    - Encapsulation → Private attributes (e.g., PIN).
     
-    - Polymorphism → Transaction subclasses (WithdrawTransaction, DepositTransaction, etc.) override the execute method.
+    - Abstraction → Transaction is an abstract base class that defines a common structure for all transaction types.
     
-    - Abstraction → Transaction is an abstract base class.
+    - Polymorphism → Subclasses like WithdrawTransaction and DepositTransaction override the execute() method to provide specific behavior.
+
+    - Open/Closed Principle → New transaction types can be added without altering existing core logic.
+
+    - Object-Oriented Design (OOD) → Classes and relationships are structured for clarity, reusability, and flexibility.
+
+    - Software Engineering (SE) practices → The project follows modular design and clean code conventions for maintainability and scalability.
 
 ---
 
